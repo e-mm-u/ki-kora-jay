@@ -1,0 +1,17 @@
+
+.break{
+    border: 1px solid navajowhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.break-time{
+    background: white;
+    height: auto;
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
