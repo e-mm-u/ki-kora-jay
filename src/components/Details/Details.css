@@ -1,0 +1,10 @@
+.details{
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.first{
+    display: flex;
+    align-items:baseline;
+}
