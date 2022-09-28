@@ -4,13 +4,13 @@ import Details from '../Details/Details';
 import Profile from '../Profile/Profile';
 import Selected from '../Selected/Selected';
 import './Sidebar.css'
-const Sidebar = () => {
+const Sidebar = (props) => {
     return (
         <div className='sidebar'>
             <Profile></Profile>
             <Details></Details>
             <Break></Break>
-            <Selected></Selected>
+            <Selected time={props.time}></Selected>
         </div>
     );
 };

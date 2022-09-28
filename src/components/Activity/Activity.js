@@ -3,17 +3,17 @@ import './Activity.css'
 
 const Activity = (props) => {
     const { img, name, details, time } = props.activity;
+    const handleClick = props.handle;
+    // console.log(typeof(ha))
     return (
         <div>
             <div className='activity-card'>
                 <div className='activity'>
                     <img src={img} alt="" />
-                    <h3>{name}</h3>
+                    <h3>{name}</h3> 
                     <small>{details}</small>
                     <p>{time}Hr</p>
-                    <button>Add to list</button>
-
-
+                    <button onClick={()=>handleClick(time)} >Add to list</button>
                 </div>
             </div>
         </div>
