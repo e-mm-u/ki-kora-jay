@@ -1,3 +1,5 @@
+import Main from "./components/Main/Main";
+
 function App() {
 
   // useEffect(()=>{
@@ -8,7 +10,7 @@ function App() {
 
   return (
     <div>
-      
+      <Main></Main>
     </div>
   );
 }
