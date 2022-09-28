@@ -1,6 +1,7 @@
 .activity-card{
-    height: 500px;
+    /* height: 500px; */
     /* width: 100%; */
+    background-color:antiquewhite;
     padding: 10px;
     border: 1px solid teal;
 }

@@ -2,11 +2,19 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = (props) => {
+    const { img, name, details, time } = props.activity;
     return (
-        <div className='activity-card'>
-            <div className='activity'>
-                <img src={props.activity.img} alt="" />
+        <div>
+            <div className='activity-card'>
+                <div className='activity'>
+                    <img src={img} alt="" />
+                    <h3>{name}</h3>
+                    <small>{details}</small>
+                    <p>{time}Hr</p>
+                    <button>Add to list</button>
 
+
+                </div>
             </div>
         </div>
     );

@@ -6,15 +6,20 @@ const Activities = () => {
     const [activities, setActivities] = useState([])
     useEffect(() => {
         fetch('products.json')
-        .then(res => res.json())
-        .then(data => setActivities(data))
+            .then(res => res.json())
+            .then(data => setActivities(data))
     }, [])
 
     return (
-        <div className='activities'>
-            {
-                activities.map(activity =><Activity activity={activity}></Activity>)
-            }
+        <div>
+            <h1>Add activities to your list and get it done. </h1>
+
+            <div className='activities'>
+
+                {
+                    activities.map(activity => <Activity activity={activity}></Activity>)
+                }
+            </div>
         </div>
     );
 };

@@ -2,54 +2,63 @@
     {
         "id": "1",
         "name": "Cycling",
+        "details" : "Let's go for bi-cycling",
         "img": "./images/cycling.webp",
         "time": "1"
     },
     {
         "id": "2",
         "name": "Reading",
+        "details" : "How about reading something?",
         "img": "./images/reading.webp",
         "time": "2"
     },
     {
         "id": "3",
         "name": "Painting",
+        "details" : "Painting could be a good idea",
         "img": "./images/painting.webp",
         "time": "2.5"
     },
     {
         "id": "4",
         "name": "Cooking",
+        "details" : "Let's cook something delicious",
         "img": "./images/cooking.webp",
         "time": "1.5"
     },
     {
         "id": "5",
         "name": "Sudoku",
+        "details" : "Let's solve a sudoku !",
         "img": "./images/sudoku.webp",
         "time": "0.5"
     },
     {
         "id": "6",
         "name": "Ludo",
+        "details" : "Let's play Ludo!",
         "img": "./images/ludo.webp",
         "time": "1"
     },
     {
         "id": "7",
         "name": "Movie",
+        "details" : "How about watching a movie?",
         "img": "./images/movie.webp",
         "time": "3"
     },
     {
         "id": "8",
-        "name": "Zym",
+        "name": "Gym",
+        "details" : "Health is wealth, go to gym",
         "img": "./images/zym.jpg",
         "time": "2"
     },
     {
         "id": "9",
         "name": "Study",
+        "details" : "Just study bro, why're you chilling, idiot!",
         "img": "./images/study.webp",
         "time": "5"
     }
