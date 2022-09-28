@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid navy;
+}
+.header img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
