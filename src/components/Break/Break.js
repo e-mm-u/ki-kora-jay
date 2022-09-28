@@ -1,14 +1,17 @@
 import React from 'react';
 import './Break.css'
-const Break = () => {
+
+const Break = (props) => {
+    const {breakFnc} = props;
+
     return (
         <div className='add-a-break'>
             <h3>Add a Break</h3>
             <div className='break'>
-                <div className='break-time'><span>15</span>min</div>
-                <div className='break-time'><span>20</span>min</div>
-                <div className='break-time'><span>30</span>min</div>
-                <div className='break-time'><span>45</span>min</div>
+                <div onClick={()=>breakFnc(15)} className='break-time'>15min</div>
+                <div onClick={()=>breakFnc(20)} className='break-time'>20min</div>
+                <div onClick={()=>breakFnc(30)} className='break-time'>30min</div>
+                <div onClick={()=>breakFnc(45)} className='break-time'>45min</div>
             </div>
         </div>
     );
