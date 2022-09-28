@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Cycling",
+        "img": "./images/cycling.webp",
+        "time": "1"
+    },
+    {
+        "id": "2",
+        "name": "Reading",
+        "img": "./images/reading.webp",
+        "time": "2"
+    },
+    {
+        "id": "3",
+        "name": "Painting",
+        "img": "./images/painting.webp",
+        "time": "2.5"
+    },
+    {
+        "id": "4",
+        "name": "Cooking",
+        "img": "./images/cooking.webp",
+        "time": "1.5"
+    },
+    {
+        "id": "5",
+        "name": "Sudoku",
+        "img": "./images/sudoku.webp",
+        "time": "0.5"
+    },
+    {
+        "id": "6",
+        "name": "Ludo",
+        "img": "./images/ludo.webp",
+        "time": "1"
+    },
+    {
+        "id": "7",
+        "name": "Movie",
+        "img": "./images/movie.webp",
+        "time": "3"
+    },
+    {
+        "id": "8",
+        "name": "Zym",
+        "img": "./images/zym.jpg",
+        "time": "2"
+    },
+    {
+        "id": "9",
+        "name": "Study",
+        "img": "./images/study.webp",
+        "time": "5"
+    }
+
+
+]
