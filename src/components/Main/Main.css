@@ -1,7 +1,7 @@
 .main{
     background-color: rgb(153, 190, 224);
     display: grid;
-    grid-template-columns: 3.5fr 1.5fr;
+    grid-template-columns: 4fr 1fr;
     gap: 100px;
     border: 1px solid red;
     padding: 20px;
