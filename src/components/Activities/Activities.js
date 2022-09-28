@@ -13,7 +13,6 @@ const Activities = () => {
     return (
         <div>
             <h1>Add activities to your list and get it done. </h1>
-
             <div className='activities'>
 
                 {

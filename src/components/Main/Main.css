@@ -1,8 +1,8 @@
 .main{
     background-color: rgb(153, 190, 224);
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 100px;
+    grid-template-columns: 6fr 2fr;
+    gap: 10px;
     border: 1px solid red;
     padding: 20px;
 }
