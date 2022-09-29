@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "question": "How does 'REACT' works?",
+        "answer" : "React is a simple javascript library. It uses the JSX element that  simplifies code writing. We can write javascript and html alike code (jsx) in a single file. It helps to eliminate repetitive codes as it has component that offers using reusable code with different properties. It also use virtual-dom that help to load only things need to be updated rather than refreshing the whole website. This is how react works."
+    },
+    {
+        "id": "2",
+        "question": "What is the difference between 'useState'  and 'props'?",
+        "answer" : "State is managed by the component itself, whereas props are controlled by the renderer."
+    },
+    {
+        "id": "3",
+        "question": "Where do we use 'UseEffect' except fetching data from API ?",
+        "answer" : "Except fetching data, useEffect is used when we need updating the DOM directly, and when we need to work with 'time'."
+    }
+]
