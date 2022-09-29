@@ -3,6 +3,7 @@ import Break from '../Break/Break';
 import Details from '../Details/Details';
 import Profile from '../Profile/Profile';
 import Selected from '../Selected/Selected';
+import Toast from '../Toast/Toast';
 import './Sidebar.css'
 
 const Sidebar = (props) => {
@@ -20,6 +21,7 @@ const Sidebar = (props) => {
             <Details></Details>
             <Break breakFnc={addBreakTime}></Break>
             <Selected time={props.time} breakTime={breakTime}></Selected>
+            <Toast></Toast>
         </div>
     );
 };

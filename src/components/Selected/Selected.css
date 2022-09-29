@@ -1,8 +1,11 @@
 .selected-time, .selected-break-time{
-    height: 32px;
-    margin-top: 20px;
+    /* height: 32px; */
+    text-align: center;
     background-color: gray;
-    border: 1px solid black;
+    border: 1px solid  rgba(211, 211, 211, 0.192);
     border-radius: 20px;
     padding: 15px;
+}
+.selected-break-time{
+    margin-top: 10px;
 }

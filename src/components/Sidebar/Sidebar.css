@@ -2,5 +2,8 @@
     background-color:slategrey;
     padding: 5px;
     margin-top: 80px;
-    height: 650px;
+    /* height: 650px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

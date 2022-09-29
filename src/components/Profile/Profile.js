@@ -10,7 +10,6 @@ const Profile = () => {
                 <p><b>Lila Boti</b></p>
                 <small>Istanbul, Turkey</small>
             </div>
-            
         </div>
     );
 };
