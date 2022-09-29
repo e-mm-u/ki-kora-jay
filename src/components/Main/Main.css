@@ -1,8 +1,22 @@
 .main{
     background-color: rgb(153, 190, 224);
     display: grid;
-    grid-template-columns: 6fr 2fr;
+    grid-template-columns: 3fr 1fr;
     gap: 10px;
     border: 1px solid red;
     padding: 20px;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .main{
+        grid-template-columns : 2fr 1fr;
+    } 
+}
+
+@media screen and (max-width : 600px){
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
 }
