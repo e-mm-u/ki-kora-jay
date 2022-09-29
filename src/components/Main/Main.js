@@ -7,7 +7,7 @@ const Main = () => {
     const [pretime, setTime] = useState(0);
 
     const handleClick = (time) => {
-        console.log('clicked ', time);
+        // console.log('clicked ', time);
         const newTime = pretime + parseFloat(time);
         setTime(newTime)
     }

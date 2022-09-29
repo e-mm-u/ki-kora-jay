@@ -12,7 +12,6 @@ const Sidebar = (props) => {
     const addBreakTime = (time) => {
         setBreak(time);
         localStorage.setItem('break-time',time);
-        
     }
 
     return (

@@ -3,8 +3,8 @@ import Activity from '../Activity/Activity';
 import './Activities.css'
 
 const Activities = (props) => {
+    const {handle} = props;
     const [activities, setActivities] = useState([])
-    const handle = props.handle;
     useEffect(() => {
         fetch('products.json')
         .then(res => res.json())

@@ -4,7 +4,6 @@ import './Activity.css'
 const Activity = (props) => {
     const { img, name, details, time } = props.activity;
     const handleClick = props.handle;
-    // console.log(typeof(ha))
     return (
         <div>
             <div className='activity-card'>
