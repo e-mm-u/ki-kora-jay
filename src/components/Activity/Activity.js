@@ -12,7 +12,7 @@ const Activity = (props) => {
                     <img src={img} alt="" />
                     <h3>{name}</h3> 
                     <small>{details}</small>
-                    <p>{time}Hr</p>
+                    <p> <small>Duration :</small> <b>{time}Hr</b> </p>
                     <button onClick={()=>handleClick(time)} >Add to list</button>
                 </div>
             </div>

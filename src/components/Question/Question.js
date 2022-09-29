@@ -1,17 +1,19 @@
 import React from 'react';
+import './Question.css'
 
 const Question = (props) => {
-    const {question, answer} = props.question;
+    const { question, answer } = props.question;
     return (
         <div className='question'>
-                <p>{question}</p>
-                <span>Answer : </span>
+            <p>{question}</p>
+            <span>Answer : 
                 <code>
                     <small>
                         {answer}
                     </small>
                 </code>
-            </div>
+            </span>
+        </div>
     );
 };
 

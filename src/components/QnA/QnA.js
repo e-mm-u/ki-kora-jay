@@ -13,7 +13,7 @@ const QnA = () => {
     return (
         <div className='q-n-a'>
             <h3>Quiz</h3>
-            <p>Do you know -</p>
+            <p>Do you know -</p> <br />
             {
                 questions.map(question => <Question
                     question={question}

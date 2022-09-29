@@ -19,6 +19,7 @@ const Sidebar = (props) => {
         <div className='sidebar'>
             <Profile></Profile>
             <Details></Details>
+            <hr />
             <Break breakFnc={addBreakTime}></Break>
             <Selected time={props.time} breakTime={breakTime}></Selected>
             <Toast></Toast>

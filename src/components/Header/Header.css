@@ -1,8 +1,11 @@
 .header{
+    background-color:rgb(203, 195, 227);
+    background-image: linear-gradient(to bottom right, rgb(158, 139, 218), rgb(196, 226, 255));
+
     display: flex;
     align-items: center;
     gap: 5px;
-    border: 1px solid navy;
+    padding-left: 75px;
 }
 .header img{
     height: 60px;

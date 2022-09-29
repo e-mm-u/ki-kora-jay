@@ -1,7 +1,7 @@
 .selected-time, .selected-break-time{
     /* height: 32px; */
     text-align: center;
-    background-color: gray;
+    background-color:rgb(203, 195, 227);
     border: 1px solid  rgba(211, 211, 211, 0.192);
     border-radius: 20px;
     padding: 15px;
